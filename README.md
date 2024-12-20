@@ -53,7 +53,7 @@ In the third terminal run the script for the goals specifying the target
 ```
 You can visualize the map on RVIZ launching
 ```
- ros2 launch rl_fra2mo_description display_fra2mo.launch.py rviz_config:=map
+ ros2 launch rl_fra2mo_description display_fra2mo.launch.py map:=true
 ```
 When the robot has reached the final goal, you can save the map in the desired folder (FIRST CHANGE DIRECTORY) using
 ```
@@ -79,6 +79,6 @@ ros2 run rqt_image_view rqt_image_view
 ```
 You can also see the robot with all the frames on RVIZ (select tf)
 ```
- ros2 launch rl_fra2mo_description display_fra2mo.launch.py rviz_config:=nav
+ ros2 launch rl_fra2mo_description display_fra2mo.launch.py
 ```
 
