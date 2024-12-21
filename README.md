@@ -65,6 +65,10 @@ Run Gazebo (REMEMBER TO CLICK PLAY)
 ```
  ros2 launch rl_fra2mo_description gazebo_fra2mo.launch.py
 ```
+You can also see the robot with all the frames on RVIZ (select tf) (LAUNCH THIS BEFORE THE TOPIC ECHO)
+```
+ ros2 launch rl_fra2mo_description display_fra2mo.launch.py
+```
 Launch the navigation and detection
 ```
 ros2 launch rl_fra2mo_description vision_navigation.launch.py 
@@ -77,8 +81,5 @@ To visualize the detection done by the camera (SELECT /aruco_single/result )
 ```
 ros2 run rqt_image_view rqt_image_view 
 ```
-You can also see the robot with all the frames on RVIZ (select tf)
-```
- ros2 launch rl_fra2mo_description display_fra2mo.launch.py
-```
+
 
