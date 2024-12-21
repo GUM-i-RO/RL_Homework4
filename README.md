@@ -18,6 +18,7 @@ Source the setup files
  source install/setup.bash
 ```
 ## :white_check_mark: Usage 🤖
+If in any case the robot doesn't start moving, try to rerun
 ### 1. Autonomous navigation task with 4 different goals
 
 Run Gazebo (REMEMBER TO CLICK PLAY)
